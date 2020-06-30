@@ -1,0 +1,34 @@
+
+Enemy5.png
+size: 368,325
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+sceleton
+  rotate: false
+  xy: 238, 215
+  size: 112, 108
+  orig: 112, 108
+  offset: 0, 0
+  index: -1
+stand
+  rotate: false
+  xy: 2, 154
+  size: 234, 169
+  orig: 234, 169
+  offset: 0, 0
+  index: -1
+wings1
+  rotate: false
+  xy: 2, 2
+  size: 181, 150
+  orig: 181, 150
+  offset: 0, 0
+  index: -1
+wings2
+  rotate: false
+  xy: 185, 2
+  size: 181, 150
+  orig: 181, 150
+  offset: 0, 0
+  index: -1

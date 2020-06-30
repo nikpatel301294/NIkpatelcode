@@ -1,0 +1,144 @@
+{
+"skeleton": {
+	"hash": "bHX3hQSgYG7fUAxgfdycui4/ZPo",
+	"spine": "3.8.95",
+	"x": -117.03,
+	"y": 0.96,
+	"width": 246.28,
+	"height": 232,
+	"fps": 37.9,
+	"images": "./images/",
+	"audio": "/Users/ankit/Desktop/Ankit/Galaxy_Battle/World7/Enemys/enemy4"
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "hand2", "parent": "root", "length": 86.5, "rotation": -133.95, "x": -36.8, "y": 109.55 },
+	{ "name": "hand1", "parent": "root", "length": 76.54, "rotation": -51.65, "x": 43.84, "y": 108.66 },
+	{ "name": "sceleton", "parent": "root", "length": 137.11, "rotation": -89.75, "x": 4.3, "y": 199.63 },
+	{ "name": "fan1", "parent": "hand1", "length": 74.93, "rotation": -40.49, "x": 5.58, "y": 25.72 },
+	{ "name": "fan2", "parent": "hand2", "length": 67.77, "rotation": 41.81, "x": 12.41, "y": -23.91 }
+],
+"slots": [
+	{ "name": "sceleton", "bone": "sceleton", "attachment": "sceleton" },
+	{ "name": "hand1", "bone": "hand1", "attachment": "hand1" },
+	{ "name": "hand2", "bone": "hand2", "attachment": "hand2" },
+	{ "name": "fan1", "bone": "fan1", "attachment": "fan1" },
+	{ "name": "fan2", "bone": "fan2", "attachment": "fan2" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"fan1": {
+				"fan1": { "x": 2.2, "y": 3.36, "rotation": 92.15, "width": 117, "height": 117 }
+			},
+			"fan2": {
+				"fan2": { "x": 2.43, "y": 4.19, "rotation": 92.14, "width": 117, "height": 117 }
+			},
+			"hand1": {
+				"hand1": { "x": 28.71, "y": 11.8, "rotation": 51.65, "width": 59, "height": 185 }
+			},
+			"hand2": {
+				"hand2": { "x": 30.53, "y": -8.49, "rotation": 133.95, "width": 59, "height": 185 }
+			},
+			"sceleton": {
+				"sceleton": { "x": 62.18, "y": 1.84, "rotation": 89.75, "width": 94, "height": 191 }
+			}
+		}
+	}
+],
+"animations": {
+	"fire3": {
+		"bones": {
+			"sceleton": {
+				"translate": [
+					{},
+					{ "time": 0.1319, "y": -80.14 },
+					{ "time": 0.2639 }
+				],
+				"scale": [
+					{},
+					{ "time": 0.1319, "x": 1.25, "y": 1.056 },
+					{ "time": 0.2639 }
+				]
+			},
+			"hand2": {
+				"translate": [
+					{},
+					{ "time": 0.1319, "x": 22.75, "y": -3.25 },
+					{ "time": 0.2639 }
+				]
+			},
+			"hand1": {
+				"translate": [
+					{},
+					{ "time": 0.1319, "x": -12.51 },
+					{ "time": 0.2639 }
+				]
+			},
+			"fan2": {
+				"rotate": [
+					{},
+					{ "time": 0.0792, "angle": -89.75 },
+					{ "time": 0.1319, "angle": 179.9 },
+					{ "time": 0.2639 }
+				]
+			},
+			"fan1": {
+				"rotate": [
+					{},
+					{ "time": 0.0528, "angle": -85.6 },
+					{ "time": 0.1319, "angle": 179.56 },
+					{ "time": 0.2639 }
+				]
+			}
+		}
+	},
+	"normal1": {
+		"bones": {
+			"sceleton": {
+				"translate": [
+					{},
+					{ "time": 0.1319, "y": -2.61 },
+					{ "time": 0.2639 }
+				],
+				"scale": [
+					{},
+					{ "time": 0.1319, "x": 1.059, "y": 1.044 },
+					{ "time": 0.2639 }
+				]
+			},
+			"hand2": {
+				"translate": [
+					{},
+					{ "time": 0.1319, "x": 22.75, "y": -3.25 },
+					{ "time": 0.2639 }
+				]
+			},
+			"hand1": {
+				"translate": [
+					{},
+					{ "time": 0.1319, "x": -12.51 },
+					{ "time": 0.2639 }
+				]
+			},
+			"fan2": {
+				"rotate": [
+					{},
+					{ "time": 0.0792, "angle": -89.75 },
+					{ "time": 0.1319, "angle": 179.9 },
+					{ "time": 0.2639 }
+				]
+			},
+			"fan1": {
+				"rotate": [
+					{},
+					{ "time": 0.0528, "angle": -85.6 },
+					{ "time": 0.1319, "angle": 179.56 },
+					{ "time": 0.2639 }
+				]
+			}
+		}
+	}
+}
+}

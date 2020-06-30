@@ -1,0 +1,115 @@
+{
+"skeleton": {
+	"hash": "AFE8TcuuKNZKK7V8HUOiHgJfvwM",
+	"spine": "3.8.95",
+	"x": -115.12,
+	"y": 4.92,
+	"width": 232,
+	"height": 185,
+	"images": "./images/",
+	"audio": "/Users/ankit/Desktop/Ankit/Galaxy_Battle/World_4/Enemys_Ani/Enemy3"
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "f1", "parent": "root", "length": 90.32, "rotation": 115.29, "x": -59.16, "y": 101.74 },
+	{ "name": "f2", "parent": "root", "length": 68.17, "rotation": 65.7, "x": 66.59, "y": 104.75 },
+	{ "name": "silenser", "parent": "root", "length": 99.15, "rotation": 90, "x": 1.48, "y": 81.94 },
+	{ "name": "eye", "parent": "root", "length": 77.89, "rotation": 91.09, "x": 13.26, "y": 74.73 },
+	{ "name": "blink", "parent": "root", "length": 45.58, "rotation": -91.09, "x": -11.87, "y": 122.15 }
+],
+"slots": [
+	{ "name": "silenser", "bone": "silenser", "attachment": "silenser" },
+	{ "name": "tank side", "bone": "root", "attachment": "tank side" },
+	{ "name": "f2", "bone": "f2", "attachment": "f2" },
+	{ "name": "f1", "bone": "f1", "attachment": "f1" },
+	{ "name": "banded", "bone": "root", "attachment": "banded" },
+	{ "name": "back", "bone": "root", "attachment": "back" },
+	{ "name": "tank", "bone": "root", "attachment": "tank" },
+	{ "name": "eye", "bone": "eye", "attachment": "eye" },
+	{ "name": "blink", "bone": "blink", "attachment": "blink" },
+	{ "name": "sts", "bone": "root", "attachment": "sts" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"back": {
+				"back": { "x": -2.12, "y": 75.42, "rotation": 11.84, "width": 72, "height": 61 }
+			},
+			"banded": {
+				"banded": { "x": -1.62, "y": 102.92, "width": 163, "height": 54 }
+			},
+			"blink": {
+				"blink": { "x": 21.52, "y": 11.16, "rotation": 91.09, "width": 56, "height": 49 }
+			},
+			"eye": {
+				"eye": { "x": 39.48, "y": 14.63, "rotation": -91.09, "width": 112, "height": 98 }
+			},
+			"f1": {
+				"f1": { "x": 44, "y": -0.92, "rotation": -115.29, "width": 76, "height": 96 }
+			},
+			"f2": {
+				"f2": { "x": 38.94, "y": 4.1, "rotation": -65.7, "width": 76, "height": 96 }
+			},
+			"silenser": {
+				"silenser": { "x": 55.98, "y": -1.89, "rotation": -90, "width": 145, "height": 104 }
+			},
+			"sts": {
+				"sts": { "x": -1.12, "y": 44.42, "width": 70, "height": 65 }
+			},
+			"tank": {
+				"tank": { "x": -1.12, "y": 39.42, "width": 34, "height": 69 }
+			},
+			"tank side": {
+				"tank side": { "x": -0.62, "y": 87.42, "width": 171, "height": 85 }
+			}
+		}
+	}
+],
+"animations": {
+	"animation": {
+		"bones": {
+			"f2": {
+				"rotate": [
+					{},
+					{ "time": 0.1667, "angle": -42.68 },
+					{ "time": 0.3333 }
+				]
+			},
+			"f1": {
+				"rotate": [
+					{},
+					{ "time": 0.1667, "angle": 37.46 },
+					{ "time": 0.3333 }
+				]
+			},
+			"eye": {
+				"translate": [
+					{},
+					{ "time": 0.1667, "y": -7.67 },
+					{ "time": 0.3333 }
+				]
+			},
+			"blink": {
+				"translate": [
+					{},
+					{ "time": 0.1667, "x": 8.16, "y": -6.31 },
+					{ "time": 0.3333 }
+				],
+				"scale": [
+					{},
+					{ "time": 0.1667, "x": 0.11, "y": 0.39 },
+					{ "time": 0.3333 }
+				]
+			},
+			"silenser": {
+				"translate": [
+					{},
+					{ "time": 0.1667, "y": -24.54 },
+					{ "time": 0.3333 }
+				]
+			}
+		}
+	}
+}
+}

@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - BullateTag
+  - BullateDestroyWall
+  - EnemyWallTag
+  - EnemyBullateTag
+  - EnemyTag1
+  - EnemyTag2
+  - EnemyTag3
+  - EnemyTag4
+  - EnemyTag5
+  - EnemyTag6
+  - EnemyTag7
+  - EnemyTag
+  - EnemyBullate
+  - powerTag
+  - BossTag
+  - planeProtectCircle
+  - coin
+  - Player1
+  - Player2
+  - Stone1
+  - StoneEnemyTag
+  - Stone
+  - MultipowerTag
+  - ProtectpowerTag
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - enemyLayer
+  - coinLayer
+  - firelevel
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0

@@ -1,0 +1,113 @@
+{
+"skeleton": {
+	"hash": "vZAQzdNPKVoh6yqMab8Btq8iHSA",
+	"spine": "3.8.95",
+	"x": -149.83,
+	"y": 2.3,
+	"width": 319,
+	"height": 320,
+	"images": "./images/",
+	"audio": "/Users/ankit/Desktop/Ankit/Galaxy_Battle/Word5/Enemys/Enemy4"
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "wings2", "parent": "root", "length": 153.38, "rotation": 35.46, "x": 32.02, "y": 210.69 },
+	{ "name": "Wings1", "parent": "root", "length": 116.78, "rotation": 144.8, "x": -19.61, "y": 211.16 },
+	{ "name": "stand", "parent": "root", "length": 113.87, "rotation": -90.46, "x": 6.21, "y": 118.96 },
+	{ "name": "sceleton", "parent": "root", "length": 88.56, "rotation": -91.79, "x": 7.59, "y": 219.45 }
+],
+"slots": [
+	{ "name": "wings1", "bone": "Wings1", "attachment": "wings1" },
+	{ "name": "wings2", "bone": "wings2", "attachment": "wings2" },
+	{ "name": "sceleton", "bone": "sceleton", "attachment": "sceleton" },
+	{ "name": "stand", "bone": "stand", "attachment": "stand" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"sceleton": {
+				"sceleton": { "x": 40.05, "y": 3.84, "rotation": 91.79, "width": 114, "height": 110 }
+			},
+			"stand": {
+				"stand": { "x": 31.16, "y": -0.78, "rotation": 90.46, "width": 236, "height": 171 }
+			},
+			"wings1": {
+				"wings1": { "x": 80.97, "y": -4.25, "rotation": -144.8, "width": 133, "height": 122 }
+			},
+			"wings2": {
+				"wings2": { "x": 86.5, "y": 0.53, "rotation": -35.46, "width": 134, "height": 122 }
+			}
+		}
+	}
+],
+"animations": {
+	"fire": {
+		"bones": {
+			"wings2": {
+				"rotate": [
+					{},
+					{ "time": 0.1667, "angle": 42.55 },
+					{ "time": 0.3333 }
+				]
+			},
+			"Wings1": {
+				"rotate": [
+					{},
+					{ "time": 0.1667, "angle": -48.01 },
+					{ "time": 0.3333 }
+				]
+			},
+			"sceleton": {
+				"translate": [
+					{},
+					{ "time": 0.1667, "y": 7.63 },
+					{ "time": 0.3333 }
+				],
+				"scale": [
+					{},
+					{ "time": 0.1667, "x": 1.118 },
+					{ "time": 0.3333 }
+				]
+			},
+			"stand": {
+				"translate": [
+					{},
+					{ "time": 0.1667, "y": 49.18 },
+					{ "time": 0.3333 }
+				]
+			}
+		}
+	},
+	"normal": {
+		"bones": {
+			"wings2": {
+				"rotate": [
+					{},
+					{ "time": 0.1667, "angle": 42.55 },
+					{ "time": 0.3333 }
+				]
+			},
+			"Wings1": {
+				"rotate": [
+					{},
+					{ "time": 0.1667, "angle": -48.01 },
+					{ "time": 0.3333 }
+				]
+			},
+			"sceleton": {
+				"translate": [
+					{},
+					{ "time": 0.1667, "y": 7.63 },
+					{ "time": 0.3333 }
+				],
+				"scale": [
+					{},
+					{ "time": 0.1667, "x": 1.118 },
+					{ "time": 0.3333 }
+				]
+			}
+		}
+	}
+}
+}

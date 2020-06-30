@@ -1,0 +1,86 @@
+{
+"skeleton": {
+	"hash": "XMEPe9gKr/XLA8cAYmbhzYGxLBs",
+	"spine": "3.8.95",
+	"x": -98.88,
+	"y": 4.18,
+	"width": 199,
+	"height": 155,
+	"images": "./images/",
+	"audio": "/Users/ankit/Desktop/Ankit/Galaxy_Battle/World3/World_4/Enemys_Ani/Enemy1"
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "back2", "parent": "root", "length": 96.07, "rotation": 31.74, "x": 21.75, "y": 103.33 },
+	{ "name": "Hand2", "parent": "root", "length": 89.19, "rotation": -35.11, "x": 12.63, "y": 77.11 },
+	{ "name": "Hand1", "parent": "root", "length": 70.4, "rotation": -146.22, "x": -13.21, "y": 74.07 },
+	{ "name": "back1", "parent": "root", "length": 64.45, "rotation": 148.75, "x": -21.57, "y": 104.47 }
+],
+"slots": [
+	{ "name": "Shape 6", "bone": "root", "attachment": "Shape 6" },
+	{ "name": "back1", "bone": "back1", "attachment": "back1" },
+	{ "name": "back2", "bone": "back2", "attachment": "back2" },
+	{ "name": "h2", "bone": "Hand2", "attachment": "h2" },
+	{ "name": "h1", "bone": "Hand1", "attachment": "h1" },
+	{ "name": "Head", "bone": "root", "attachment": "Head" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"Head": {
+				"Head": { "x": 0.62, "y": 83.68, "width": 59, "height": 151 }
+			},
+			"Shape 6": {
+				"Shape 6": { "x": 58.12, "y": 119.18, "width": 80, "height": 80 }
+			},
+			"back1": {
+				"back1": { "x": 36.36, "y": 4.28, "rotation": -148.75, "width": 78, "height": 79 }
+			},
+			"back2": {
+				"back2": { "x": 39.96, "y": -5.5, "rotation": -31.74, "width": 79, "height": 79 }
+			},
+			"h1": {
+				"h1": { "x": 45, "y": -6.77, "rotation": 146.22, "width": 89, "height": 99 }
+			},
+			"h2": {
+				"h2": { "x": 49.06, "y": 5.85, "rotation": 35.11, "width": 88, "height": 99 }
+			}
+		}
+	}
+],
+"animations": {
+	"animation": {
+		"bones": {
+			"Hand1": {
+				"rotate": [
+					{},
+					{ "time": 0.1667, "angle": -34.2 },
+					{ "time": 0.3333 },
+					{ "time": 0.5, "angle": 48.07 },
+					{ "time": 0.6667 }
+				],
+				"translate": [
+					{ "time": 0.3333 },
+					{ "time": 0.5, "x": 2.69 },
+					{ "time": 0.6667 }
+				],
+				"scale": [
+					{ "time": 0.3333 },
+					{ "time": 0.5, "y": 0.933 },
+					{ "time": 0.6667 }
+				]
+			},
+			"Hand2": {
+				"rotate": [
+					{},
+					{ "time": 0.1667, "angle": 34.94 },
+					{ "time": 0.3333 },
+					{ "time": 0.5, "angle": -52.04 },
+					{ "time": 0.6667 }
+				]
+			}
+		}
+	}
+}
+}

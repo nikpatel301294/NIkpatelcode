@@ -1,0 +1,48 @@
+
+eney1.png
+size: 188,195
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+h1
+  rotate: false
+  xy: 2, 2
+  size: 78, 74
+  orig: 80, 76
+  offset: 1, 1
+  index: -1
+hand2
+  rotate: false
+  xy: 82, 3
+  size: 78, 74
+  orig: 80, 76
+  offset: 1, 1
+  index: -1
+mid sl
+  rotate: false
+  xy: 162, 3
+  size: 24, 74
+  orig: 26, 76
+  offset: 1, 1
+  index: -1
+sl2
+  rotate: false
+  xy: 2, 78
+  size: 28, 115
+  orig: 32, 120
+  offset: 2, 4
+  index: -1
+st
+  rotate: false
+  xy: 32, 78
+  size: 28, 115
+  orig: 32, 120
+  offset: 2, 4
+  index: -1
+up
+  rotate: false
+  xy: 62, 79
+  size: 111, 114
+  orig: 113, 116
+  offset: 1, 1
+  index: -1

@@ -1,0 +1,42 @@
+﻿<Properties StartupConfiguration="{6DEAB068-7B5C-CC53-D6E5-7F0DC216BCDB}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Script/Player_Controller.cs">
+    <Files>
+      <File FileName="Assets/Script/SpawnChicken.cs" Line="56" Column="1" />
+      <File FileName="../StrikeGalaxyAttack/Assets/StrikeGalaxyAttack/Scrips/MoveItem.cs" />
+      <File FileName="Assets/Script/ChickenControl.cs" Line="25" Column="35" />
+      <File FileName="Assets/Script/Player_Controller.cs" Line="191" Column="42" />
+      <File FileName="Assets/Script/Bullet_Script.cs" Line="46" Column="6" />
+      <File FileName="Assets/Script/WaveManage.cs" />
+      <File FileName="Assets/Script/MoveEnemy.cs" Line="374" Column="20" />
+      <File FileName="Assets/Script/Style1.cs" />
+      <File FileName="../StrikeGalaxyAttack/Assets/StrikeGalaxyAttack/Scrips/Main/SpawnChicken.cs" />
+      <File FileName="Assets/Script/SoundManagerScript.cs" Line="56" Column="29" />
+      <File FileName="Assets/Script/Object_Spawner.cs" />
+      <File FileName="Assets/Script/ButtonTouch.cs" Line="40" Column="36" />
+      <File FileName="Assets/Script/Boss1Script.cs" Line="199" Column="43" />
+      <File FileName="Assets/Script/EnemyBullateDestroy.cs" />
+      <File FileName="Assets/Script/BgMove.cs" />
+      <File FileName="Assets/Script/coinScript.cs" Line="15" Column="6" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="GalaxyShooterNIk" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Script" expanded="True">
+                <Node name="Player_Controller.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="b88b7fe3-bb6c-496d-b9bf-fe12130608ec" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

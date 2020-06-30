@@ -1,0 +1,76 @@
+
+Animations_boos.png
+size: 1565,899
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Gun hand1
+  rotate: true
+  xy: 2, 2
+  size: 61, 226
+  orig: 64, 228
+  offset: 1, 1
+  index: -1
+Gun hand2
+  rotate: true
+  xy: 230, 2
+  size: 61, 226
+  orig: 64, 228
+  offset: 2, 1
+  index: -1
+gun
+  rotate: true
+  xy: 1255, 31
+  size: 376, 270
+  orig: 378, 272
+  offset: 1, 1
+  index: -1
+hand1
+  rotate: true
+  xy: 1029, 654
+  size: 243, 534
+  orig: 247, 539
+  offset: 1, 4
+  index: -1
+hand2
+  rotate: true
+  xy: 1029, 409
+  size: 243, 534
+  orig: 247, 539
+  offset: 3, 4
+  index: -1
+head
+  rotate: false
+  xy: 2, 465
+  size: 538, 432
+  orig: 544, 436
+  offset: 3, 1
+  index: -1
+koni
+  rotate: false
+  xy: 2, 65
+  size: 485, 398
+  orig: 487, 400
+  offset: 1, 1
+  index: -1
+koni1
+  rotate: false
+  xy: 542, 499
+  size: 485, 398
+  orig: 487, 400
+  offset: 1, 1
+  index: -1
+sing1
+  rotate: false
+  xy: 489, 82
+  size: 381, 381
+  orig: 383, 383
+  offset: 1, 1
+  index: -1
+sing2
+  rotate: false
+  xy: 872, 26
+  size: 381, 381
+  orig: 383, 383
+  offset: 1, 1
+  index: -1

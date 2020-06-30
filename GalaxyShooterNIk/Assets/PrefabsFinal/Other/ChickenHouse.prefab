@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1000010565358670
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4000011534648170}
+  - component: {fileID: 3521847526692039622}
+  m_Layer: 0
+  m_Name: ChickenHouse
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4000011534648170
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1000010565358670}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3521847526692039622
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1000010565358670}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0cea8bc8de7a17449c92bc24cf9e699, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  world4enemy1: {fileID: 299956269590897978, guid: 94df6a1d3a9a05c439ff749168997989,
+    type: 3}
+  world4enemy1normal: {fileID: 11400000, guid: 77ce02108713fe04cba6a3680194c89b, type: 2}
+  world4enemy1fire: {fileID: 11400000, guid: 2420bef77b8254a4aa40223c49a012af, type: 2}
+  world4enemy2: {fileID: 3634150975081070075, guid: 447e08b4f64ecd54fbba33fdfc44afb2,
+    type: 3}
+  world4enemy2normal: {fileID: 11400000, guid: fac1fe48f7366384cafe6132b21775da, type: 2}
+  world4enemy2fire: {fileID: 11400000, guid: 3c996a92291025c46858fb5e7025a9af, type: 2}
+  curruntString: 
+  timecount: 0
+  timeSpawnBullet: 0.2
+  minSpeedBullet: 2
+  maxSpeedBullet: 3.5
+  rateSpawn: 20
+  numberRandom: 0
+  bulletPrefab:
+  - {fileID: 852206981276934103, guid: f4e8e9915557c4ba89b10ae660d1f57b, type: 3}
+  - {fileID: 852206981276934103, guid: f4e8e9915557c4ba89b10ae660d1f57b, type: 3}
+  - {fileID: 852206981276934103, guid: f4e8e9915557c4ba89b10ae660d1f57b, type: 3}
+  powerGenerate_prefabs: {fileID: 0}
+  rateSpawnItem: 9
+  rateSpawnPower: 1
+  MaxPowerSpawn: 1
+  SpawnedPower: 0
+  GunPrefab:
+  - {fileID: 6806142103635699760, guid: ba9e90400ca3e477c8e3d768910695ab, type: 3}
+  - {fileID: 6806142103635699760, guid: ba9e90400ca3e477c8e3d768910695ab, type: 3}
+  - {fileID: 6806142103635699760, guid: ba9e90400ca3e477c8e3d768910695ab, type: 3}
+  itemPrefab: {fileID: 6806142103635699760, guid: ba9e90400ca3e477c8e3d768910695ab,
+    type: 3}
+  PowerPrefab: {fileID: 6806142103635699760, guid: ba9e90400ca3e477c8e3d768910695ab,
+    type: 3}
+  chickenDieEF: {fileID: 6806142103635699760, guid: ba9e90400ca3e477c8e3d768910695ab,
+    type: 3}
+  begin: 1

@@ -1,0 +1,41 @@
+
+enemy2.png
+size: 394,132
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+head
+  rotate: false
+  xy: 219, 12
+  size: 92, 118
+  orig: 94, 120
+  offset: 1, 1
+  index: -1
+ire
+  rotate: false
+  xy: 313, 21
+  size: 79, 109
+  orig: 84, 113
+  offset: 4, 3
+  index: -1
+top
+  rotate: true
+  xy: 2, 2
+  size: 128, 67
+  orig: 130, 69
+  offset: 1, 1
+  index: -1
+wing1
+  rotate: true
+  xy: 71, 5
+  size: 125, 72
+  orig: 127, 74
+  offset: 1, 1
+  index: -1
+wing2
+  rotate: true
+  xy: 145, 5
+  size: 125, 72
+  orig: 127, 74
+  offset: 1, 1
+  index: -1

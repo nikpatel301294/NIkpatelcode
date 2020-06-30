@@ -1,0 +1,111 @@
+
+Boos_ani.png
+size: 1748,551
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+H1
+  rotate: false
+  xy: 634, 216
+  size: 361, 333
+  orig: 363, 335
+  offset: 1, 1
+  index: -1
+H2
+  rotate: false
+  xy: 997, 216
+  size: 361, 333
+  orig: 363, 335
+  offset: 1, 1
+  index: -1
+ear1
+  rotate: true
+  xy: 390, 13
+  size: 217, 200
+  orig: 219, 202
+  offset: 1, 1
+  index: -1
+ear2
+  rotate: false
+  xy: 1122, 14
+  size: 217, 200
+  orig: 219, 202
+  offset: 1, 1
+  index: -1
+leg1
+  rotate: true
+  xy: 2, 2
+  size: 212, 386
+  orig: 214, 388
+  offset: 1, 1
+  index: -1
+leg1_silen
+  rotate: true
+  xy: 592, 11
+  size: 47, 133
+  orig: 49, 135
+  offset: 1, 1
+  index: -1
+leg2
+  rotate: true
+  xy: 1360, 338
+  size: 211, 386
+  orig: 213, 388
+  offset: 1, 1
+  index: -1
+leg2_silen
+  rotate: true
+  xy: 727, 11
+  size: 47, 133
+  orig: 49, 135
+  offset: 1, 1
+  index: -1
+pipe_ear1
+  rotate: true
+  xy: 592, 60
+  size: 97, 220
+  orig: 99, 222
+  offset: 1, 1
+  index: -1
+pipe_ear2
+  rotate: true
+  xy: 814, 60
+  size: 97, 220
+  orig: 99, 222
+  offset: 1, 1
+  index: -1
+pipe_h1
+  rotate: true
+  xy: 1360, 175
+  size: 161, 367
+  orig: 163, 369
+  offset: 1, 1
+  index: -1
+pipe_h2
+  rotate: true
+  xy: 1341, 12
+  size: 161, 367
+  orig: 163, 369
+  offset: 1, 1
+  index: -1
+sceleton
+  rotate: true
+  xy: 2, 289
+  size: 260, 630
+  orig: 262, 632
+  offset: 1, 1
+  index: -1
+shoot1
+  rotate: true
+  xy: 2, 232
+  size: 55, 528
+  orig: 57, 530
+  offset: 1, 1
+  index: -1
+shoot2
+  rotate: true
+  xy: 592, 159
+  size: 55, 528
+  orig: 57, 530
+  offset: 1, 1
+  index: -1

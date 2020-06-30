@@ -1,0 +1,41 @@
+
+Enemy3.png
+size: 315,144
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+head
+  rotate: true
+  xy: 129, 45
+  size: 97, 159
+  orig: 99, 161
+  offset: 1, 1
+  index: -1
+pipe1
+  rotate: true
+  xy: 129, 5
+  size: 38, 91
+  orig: 40, 93
+  offset: 1, 1
+  index: -1
+pipe2
+  rotate: true
+  xy: 222, 5
+  size: 38, 91
+  orig: 40, 93
+  offset: 1, 1
+  index: -1
+wing1
+  rotate: false
+  xy: 2, 2
+  size: 65, 140
+  orig: 69, 144
+  offset: 1, 3
+  index: -1
+wing2
+  rotate: false
+  xy: 69, 2
+  size: 58, 140
+  orig: 60, 143
+  offset: 1, 2
+  index: -1

@@ -1,0 +1,76 @@
+
+Enemy_3.png
+size: 293,285
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+back
+  rotate: false
+  xy: 211, 128
+  size: 70, 59
+  orig: 72, 61
+  offset: 1, 1
+  index: -1
+banded
+  rotate: true
+  xy: 87, 122
+  size: 161, 52
+  orig: 163, 54
+  offset: 1, 1
+  index: -1
+blink
+  rotate: true
+  xy: 244, 3
+  size: 54, 47
+  orig: 56, 49
+  offset: 1, 1
+  index: -1
+eye
+  rotate: true
+  xy: 2, 2
+  size: 110, 95
+  orig: 112, 98
+  offset: 1, 2
+  index: -1
+f1
+  rotate: false
+  xy: 141, 189
+  size: 74, 94
+  orig: 76, 96
+  offset: 1, 1
+  index: -1
+f2
+  rotate: false
+  xy: 217, 189
+  size: 74, 94
+  orig: 76, 96
+  offset: 1, 1
+  index: -1
+silenser
+  rotate: false
+  xy: 99, 18
+  size: 143, 102
+  orig: 145, 104
+  offset: 1, 1
+  index: -1
+sts
+  rotate: false
+  xy: 141, 124
+  size: 68, 63
+  orig: 70, 65
+  offset: 1, 1
+  index: -1
+tank
+  rotate: false
+  xy: 244, 59
+  size: 32, 67
+  orig: 34, 69
+  offset: 1, 1
+  index: -1
+tank side
+  rotate: true
+  xy: 2, 114
+  size: 169, 83
+  orig: 171, 85
+  offset: 1, 1
+  index: -1

@@ -1,0 +1,97 @@
+{
+"skeleton": {
+	"hash": "FJhIt1leXfzzx4eaxcysxwig98o",
+	"spine": "3.8.95",
+	"x": -91.34,
+	"y": 19.84,
+	"width": 182,
+	"height": 230,
+	"images": "./images/",
+	"audio": "/Users/ankit/Desktop/Ankit/Galaxy_Battle/World_4/Enemys_Ani/Enemy2"
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "tank", "parent": "root", "length": 101.53, "rotation": -90.44, "x": -0.59, "y": 133.9 },
+	{ "name": "sing2", "parent": "root", "length": 112.61, "rotation": 153.56, "x": -13.84, "y": 134.31 },
+	{ "name": "sing1", "parent": "root", "length": 86.5, "rotation": 34.09, "x": 20.32, "y": 129.9 }
+],
+"slots": [
+	{ "name": "tops", "bone": "tank", "attachment": "tops" },
+	{ "name": "back", "bone": "root", "attachment": "back" },
+	{ "name": "sing2", "bone": "sing2", "attachment": "sing2" },
+	{ "name": "sing1", "bone": "sing1", "attachment": "sing1" },
+	{ "name": "up", "bone": "root", "attachment": "up" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"back": {
+				"back": { "x": -2.84, "y": 142.84, "width": 81, "height": 66 }
+			},
+			"sing1": {
+				"sing1": { "x": 49.07, "y": 21.06, "rotation": -34.09, "width": 83, "height": 124 }
+			},
+			"sing2": {
+				"sing2": { "x": 50.29, "y": -20.27, "rotation": -153.56, "width": 83, "height": 124 }
+			},
+			"tops": {
+				"tops": { "x": -0.96, "y": 1.74, "rotation": 90.44, "width": 35, "height": 230 }
+			},
+			"up": {
+				"up": { "x": 1.66, "y": 120.84, "width": 60, "height": 62 }
+			}
+		}
+	}
+],
+"animations": {
+	"Normal": {
+		"bones": {
+			"tank": {
+				"rotate": [
+					{},
+					{ "time": 0.1667, "angle": -87.76 },
+					{ "time": 0.3333, "angle": -178.86 },
+					{ "time": 0.5, "angle": 88.35 },
+					{ "time": 0.6667 }
+				]
+			},
+			"sing2": {
+				"rotate": [
+					{},
+					{ "time": 0.3333, "angle": -26.94 },
+					{ "time": 0.6667 }
+				]
+			},
+			"sing1": {
+				"rotate": [
+					{},
+					{ "time": 0.3333, "angle": 26.73 },
+					{ "time": 0.6667 }
+				],
+				"translate": [
+					{},
+					{ "time": 0.3333, "y": 0.82 },
+					{ "time": 0.6667 }
+				]
+			}
+		}
+	},
+	"fire": {
+		"bones": {
+			"tank": {
+				"translate": [
+					{},
+					{ "time": 0.1667, "y": -5.73 },
+					{ "time": 0.3333 }
+				],
+				"scale": [
+					{},
+					{ "time": 0.1667, "x": 0.685 },
+					{ "time": 0.3333 }
+				]
+			}
+		}
+	}
+}
+}

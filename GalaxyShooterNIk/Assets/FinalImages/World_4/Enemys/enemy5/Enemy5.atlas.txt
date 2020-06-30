@@ -1,0 +1,55 @@
+
+Enemy5.png
+size: 117,380
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+pipe1
+  rotate: false
+  xy: 2, 2
+  size: 107, 104
+  orig: 109, 106
+  offset: 1, 1
+  index: -1
+pipe1_2
+  rotate: false
+  xy: 2, 108
+  size: 109, 102
+  orig: 111, 104
+  offset: 1, 1
+  index: -1
+round1
+  rotate: true
+  xy: 2, 291
+  size: 45, 53
+  orig: 47, 55
+  offset: 1, 1
+  index: -1
+round1_2
+  rotate: true
+  xy: 2, 338
+  size: 40, 53
+  orig: 42, 56
+  offset: 1, 2
+  index: -1
+round2
+  rotate: true
+  xy: 57, 337
+  size: 41, 56
+  orig: 43, 58
+  offset: 1, 1
+  index: -1
+round_2_1
+  rotate: true
+  xy: 57, 291
+  size: 44, 58
+  orig: 46, 60
+  offset: 1, 1
+  index: -1
+sceleton
+  rotate: true
+  xy: 2, 212
+  size: 77, 89
+  orig: 79, 91
+  offset: 1, 1
+  index: -1

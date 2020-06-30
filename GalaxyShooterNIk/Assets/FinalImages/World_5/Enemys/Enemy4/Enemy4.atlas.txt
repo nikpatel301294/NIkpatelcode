@@ -1,0 +1,34 @@
+
+Enemy4.png
+size: 592,173
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+sceleton
+  rotate: true
+  xy: 482, 59
+  size: 112, 108
+  orig: 114, 110
+  offset: 1, 1
+  index: -1
+stand
+  rotate: false
+  xy: 2, 2
+  size: 234, 169
+  orig: 236, 171
+  offset: 1, 1
+  index: -1
+wings1
+  rotate: true
+  xy: 360, 40
+  size: 131, 120
+  orig: 133, 122
+  offset: 1, 1
+  index: -1
+wings2
+  rotate: true
+  xy: 238, 39
+  size: 132, 120
+  orig: 134, 122
+  offset: 1, 1
+  index: -1

@@ -1,0 +1,396 @@
+{
+"skeleton": {
+	"hash": "gxhCVhmHERggK6vCNSFmdHV2gIY",
+	"spine": "3.8.95",
+	"x": -550.37,
+	"y": -211.3,
+	"width": 1124,
+	"height": 1054,
+	"fps": 16.9,
+	"images": "./images/",
+	"audio": "/Users/ankit/Desktop/Ankit/Galaxy_Battle/World3/Boos_Animation"
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "koni2", "parent": "root", "length": 322.96, "rotation": -156.45, "x": -83.16, "y": 424.13 },
+	{ "name": "hand_main2", "parent": "koni2", "length": 372.1, "rotation": 77.52, "x": 330.25, "y": -167.8 },
+	{ "name": "gun_hand2", "parent": "koni2", "length": 188.88, "rotation": 65.67, "x": 397.42, "y": 274.54 },
+	{ "name": "koni1", "parent": "root", "length": 317.82, "rotation": -26.03, "x": 142.65, "y": 419.74 },
+	{ "name": "hand1", "parent": "koni1", "length": 423.26, "rotation": -77.27, "x": 303.12, "y": 192.01 },
+	{ "name": "gun_hand1", "parent": "koni1", "length": 217.16, "rotation": -63.27, "x": 374.8, "y": -266.56 },
+	{ "name": "head", "parent": "root", "length": 383.69, "rotation": -90.59, "x": 13.87, "y": 644.23 },
+	{ "name": "Sing2", "parent": "head", "length": 315.95, "rotation": -126.32, "x": 121.61, "y": -216.95 },
+	{ "name": "sing1", "parent": "head", "length": 301.05, "rotation": 129.53, "x": 140.71, "y": 210.5 },
+	{ "name": "Gun", "parent": "root", "length": 277.86, "rotation": -90, "x": 45.12, "y": 316.43 }
+],
+"slots": [
+	{ "name": "koni1", "bone": "koni1", "attachment": "koni1" },
+	{ "name": "Gun hand1", "bone": "gun_hand1", "attachment": "Gun hand1" },
+	{ "name": "hand1", "bone": "hand1", "attachment": "hand1" },
+	{ "name": "koni", "bone": "koni2", "attachment": "koni" },
+	{ "name": "Gun hand2", "bone": "gun_hand2", "attachment": "Gun hand2" },
+	{ "name": "hand2", "bone": "hand_main2", "attachment": "hand2" },
+	{ "name": "gun", "bone": "Gun", "attachment": "gun" },
+	{ "name": "sing1", "bone": "sing1", "attachment": "sing1" },
+	{ "name": "sing2", "bone": "Sing2", "attachment": "sing2" },
+	{ "name": "head", "bone": "head", "attachment": "head" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"Gun hand1": {
+				"Gun hand1": { "x": 113.02, "y": -1.16, "rotation": 89.31, "width": 64, "height": 228 }
+			},
+			"Gun hand2": {
+				"Gun hand2": { "x": 110.99, "y": -0.03, "rotation": 90.79, "width": 64, "height": 228 }
+			},
+			"gun": {
+				"gun": { "x": 138.74, "y": -38.49, "rotation": 90, "width": 378, "height": 272 }
+			},
+			"hand1": {
+				"hand1": { "x": 218.61, "y": 1.18, "rotation": 103.3, "width": 247, "height": 539 }
+			},
+			"hand2": {
+				"hand2": { "x": 201.11, "y": -12.75, "rotation": 78.93, "width": 247, "height": 539 }
+			},
+			"head": {
+				"head": { "x": 160.6, "y": -6.58, "rotation": 90.59, "width": 544, "height": 436 }
+			},
+			"koni": {
+				"koni": { "x": 132.59, "y": 32.13, "rotation": 156.45, "width": 487, "height": 400 }
+			},
+			"koni1": {
+				"koni1": { "x": 99.38, "y": -38.31, "rotation": 26.03, "width": 487, "height": 400 }
+			},
+			"sing1": {
+				"sing1": { "x": 156.19, "y": 49.75, "rotation": -38.94, "width": 383, "height": 383 }
+			},
+			"sing2": {
+				"sing2": { "x": 160.26, "y": -37.62, "rotation": -143.09, "width": 383, "height": 383 }
+			}
+		}
+	}
+],
+"animations": {
+	"Fire": {
+		"bones": {
+			"head": {
+				"scale": [
+					{},
+					{ "time": 0.2959, "x": 0.996, "y": 0.972 },
+					{ "time": 0.5917, "x": 1.037, "y": 1.012 },
+					{ "time": 0.8284, "x": 0.996, "y": 0.972 },
+					{ "time": 1.1243, "x": 1.037, "y": 1.012 },
+					{ "time": 1.4201, "x": 0.996, "y": 0.972 },
+					{ "time": 1.6568, "x": 1.037, "y": 1.012 },
+					{ "time": 1.8935, "x": 0.996, "y": 0.972 },
+					{ "time": 2.071 }
+				]
+			},
+			"Gun": {
+				"translate": [
+					{},
+					{ "time": 0.2959, "y": -11.98 },
+					{ "time": 2.071 }
+				],
+				"scale": [
+					{},
+					{ "time": 0.4734, "x": 0.768, "y": 0.848 },
+					{ "time": 0.7101, "x": 0.92, "y": 0.848 },
+					{ "time": 0.8876, "x": 0.768, "y": 0.848 },
+					{ "time": 1.0651, "x": 0.92, "y": 0.848 },
+					{ "time": 1.2426, "x": 0.768, "y": 0.848 },
+					{ "time": 1.4201, "x": 0.92, "y": 0.848 },
+					{ "time": 1.5976, "x": 0.768, "y": 0.848 },
+					{ "time": 1.7751, "x": 0.92, "y": 0.848 },
+					{ "time": 2.071 }
+				]
+			},
+			"koni1": {
+				"rotate": [
+					{},
+					{ "time": 0.2959, "angle": -13.83 },
+					{ "time": 0.5917, "angle": -6.49 },
+					{ "time": 2.071 }
+				]
+			},
+			"gun_hand1": {
+				"rotate": [
+					{},
+					{ "time": 0.2959, "angle": 13.01 },
+					{ "time": 0.5917, "angle": -7.16 },
+					{ "time": 2.071 }
+				],
+				"scale": [
+					{},
+					{ "time": 0.2959, "x": 0.915 },
+					{ "time": 0.4734, "x": 0.783 },
+					{ "time": 0.7692, "x": 0.974 },
+					{ "time": 1.0059, "x": 0.783 },
+					{ "time": 1.1834, "x": 0.914 },
+					{ "time": 1.4201, "x": 0.752 },
+					{ "time": 1.6568, "x": 0.939 },
+					{ "time": 1.8343, "x": 0.747 },
+					{ "time": 2.071 }
+				]
+			},
+			"koni2": {
+				"rotate": [
+					{},
+					{ "time": 0.2959, "angle": 12.01 },
+					{ "time": 0.5917, "angle": 8.2 },
+					{ "time": 2.071 }
+				]
+			},
+			"gun_hand2": {
+				"rotate": [
+					{},
+					{ "time": 0.2959, "angle": -11.75 },
+					{ "time": 0.5917, "angle": 5.29 },
+					{ "time": 2.071 }
+				],
+				"scale": [
+					{},
+					{ "time": 0.5917, "x": 0.717 },
+					{ "time": 0.7692, "x": 0.885 },
+					{ "time": 1.0059, "x": 0.761 },
+					{ "time": 1.1834, "x": 0.903 },
+					{ "time": 1.4201, "x": 0.733 },
+					{ "time": 1.6568, "x": 0.938 },
+					{ "time": 1.8343, "x": 0.729 },
+					{ "time": 2.0118, "x": 0.875 },
+					{ "time": 2.071 }
+				]
+			},
+			"Sing2": {
+				"rotate": [
+					{},
+					{ "time": 0.2959, "angle": -28.94 },
+					{ "time": 2.071 }
+				]
+			},
+			"sing1": {
+				"rotate": [
+					{},
+					{ "time": 0.2959, "angle": 35.81 },
+					{ "time": 2.071 }
+				]
+			}
+		}
+	},
+	"Fire_side2": {
+		"bones": {
+			"head": {
+				"scale": [
+					{},
+					{ "time": 0.2959, "x": 0.996, "y": 0.972, "curve": "stepped" },
+					{ "time": 1.4793, "x": 0.996, "y": 0.972 },
+					{ "time": 1.6568, "x": 1.037, "y": 1.012 },
+					{ "time": 1.7751, "x": 0.996, "y": 0.972, "curve": "stepped" },
+					{ "time": 1.8935, "x": 0.996, "y": 0.972 },
+					{ "time": 2.071 }
+				]
+			},
+			"Gun": {
+				"translate": [
+					{},
+					{ "time": 0.2959, "y": -11.98, "curve": "stepped" },
+					{ "time": 1.7751, "y": -11.98 },
+					{ "time": 2.071 }
+				],
+				"scale": [
+					{},
+					{ "time": 0.4734, "x": 0.768, "y": 0.848 },
+					{ "time": 0.7101, "x": 0.92, "y": 0.848 },
+					{ "time": 0.8876, "x": 0.768, "y": 0.848 },
+					{ "time": 1.0651, "x": 0.92, "y": 0.848 },
+					{ "time": 1.2426, "x": 0.768, "y": 0.848 },
+					{ "time": 1.4201, "x": 0.92, "y": 0.848 },
+					{ "time": 1.5976, "x": 0.768, "y": 0.848 },
+					{ "time": 1.7751, "x": 0.92, "y": 0.848 },
+					{ "time": 2.071 }
+				]
+			},
+			"koni1": {
+				"rotate": [
+					{},
+					{ "time": 0.2959, "angle": -13.83, "curve": "stepped" },
+					{ "time": 1.7751, "angle": -13.83 },
+					{ "time": 2.071 }
+				]
+			},
+			"gun_hand1": {
+				"rotate": [
+					{},
+					{ "time": 0.2959, "angle": -22.63, "curve": "stepped" },
+					{ "time": 1.7751, "angle": -22.63 },
+					{ "time": 2.071 }
+				],
+				"translate": [
+					{},
+					{ "time": 0.2959, "x": -49.06, "y": -46.12, "curve": "stepped" },
+					{ "time": 1.7751, "x": -49.06, "y": -46.12 },
+					{ "time": 2.071 }
+				],
+				"scale": [
+					{},
+					{ "time": 0.2959, "x": 0.915 },
+					{ "time": 0.4734, "x": 0.783 },
+					{ "time": 0.5917, "x": 0.915 },
+					{ "time": 0.7692, "x": 0.974 },
+					{ "time": 0.8876, "x": 0.915 },
+					{ "time": 1.0059, "x": 0.783 },
+					{ "time": 1.1834, "x": 0.915 },
+					{ "time": 1.4201, "x": 0.752 },
+					{ "time": 1.4793, "x": 0.915 },
+					{ "time": 1.6568, "x": 0.939 },
+					{ "time": 1.7751, "x": 0.915 },
+					{ "time": 1.8343, "x": 0.747 },
+					{ "time": 2.071 }
+				]
+			},
+			"koni2": {
+				"rotate": [
+					{},
+					{ "time": 0.2959, "angle": 12.01, "curve": "stepped" },
+					{ "time": 1.7751, "angle": 12.01 },
+					{ "time": 2.071 }
+				]
+			},
+			"gun_hand2": {
+				"rotate": [
+					{},
+					{ "time": 0.2959, "angle": -39.87, "curve": "stepped" },
+					{ "time": 1.7751, "angle": -39.87 },
+					{ "time": 2.071 }
+				],
+				"translate": [
+					{},
+					{ "time": 0.2959, "x": 29.89, "y": 41.82, "curve": "stepped" },
+					{ "time": 1.7751, "x": 29.89, "y": 41.82 },
+					{ "time": 2.071 }
+				],
+				"scale": [
+					{},
+					{ "time": 0.5917, "x": 0.717 },
+					{ "time": 0.7692, "x": 0.885 },
+					{ "time": 1.0059, "x": 0.761 },
+					{ "time": 1.1834, "x": 0.717 },
+					{ "time": 1.4201, "x": 0.733 },
+					{ "time": 1.4793, "x": 0.717 },
+					{ "time": 1.6568, "x": 0.938 },
+					{ "time": 1.7751, "x": 0.717 },
+					{ "time": 1.8343, "x": 0.729 },
+					{ "time": 2.0118, "x": 0.875 },
+					{ "time": 2.071 }
+				]
+			},
+			"Sing2": {
+				"rotate": [
+					{},
+					{ "time": 0.2959, "angle": -28.94, "curve": "stepped" },
+					{ "time": 1.7751, "angle": -28.94 },
+					{ "time": 2.071 }
+				]
+			},
+			"sing1": {
+				"rotate": [
+					{},
+					{ "time": 0.2959, "angle": 35.81, "curve": "stepped" },
+					{ "time": 1.7751, "angle": 35.81 },
+					{ "time": 2.071 }
+				]
+			},
+			"hand1": {
+				"rotate": [
+					{},
+					{ "time": 0.2959, "angle": -9.43, "curve": "stepped" },
+					{ "time": 1.7751, "angle": -9.43 },
+					{ "time": 2.071 }
+				],
+				"translate": [
+					{},
+					{ "time": 0.2959, "x": 26.38, "y": -50.09, "curve": "stepped" },
+					{ "time": 1.7751, "x": 26.38, "y": -50.09 },
+					{ "time": 2.071 }
+				]
+			},
+			"hand_main2": {
+				"rotate": [
+					{},
+					{ "time": 0.2959, "angle": -11.54, "curve": "stepped" },
+					{ "time": 1.7751, "angle": -11.54 },
+					{ "time": 2.071 }
+				],
+				"translate": [
+					{},
+					{ "time": 0.2959, "x": -37.2, "y": 70.34, "curve": "stepped" },
+					{ "time": 1.7751, "x": -37.2, "y": 70.34 },
+					{ "time": 2.071 }
+				]
+			}
+		}
+	},
+	"Normal": {
+		"bones": {
+			"head": {
+				"scale": [
+					{},
+					{ "time": 0.2959, "x": 1.037, "y": 1.012 },
+					{ "time": 0.5917 }
+				]
+			},
+			"Gun": {
+				"translate": [
+					{},
+					{ "time": 0.2959, "y": -11.98 },
+					{ "time": 0.5917 }
+				]
+			},
+			"koni1": {
+				"rotate": [
+					{},
+					{ "time": 0.2959, "angle": -6.49 },
+					{ "time": 0.5917 }
+				]
+			},
+			"gun_hand1": {
+				"rotate": [
+					{},
+					{ "time": 0.2959, "angle": -7.16 },
+					{ "time": 0.5917 }
+				]
+			},
+			"koni2": {
+				"rotate": [
+					{},
+					{ "time": 0.2959, "angle": 8.2 },
+					{ "time": 0.5917 }
+				]
+			},
+			"gun_hand2": {
+				"rotate": [
+					{},
+					{ "time": 0.2959, "angle": 5.29 },
+					{ "time": 0.5917 }
+				]
+			},
+			"Sing2": {
+				"rotate": [
+					{},
+					{ "time": 0.2959, "angle": -12.42 },
+					{ "time": 0.5917 }
+				]
+			},
+			"sing1": {
+				"rotate": [
+					{},
+					{ "time": 0.2959, "angle": 18.13 },
+					{ "time": 0.5917 }
+				]
+			}
+		}
+	}
+}
+}
